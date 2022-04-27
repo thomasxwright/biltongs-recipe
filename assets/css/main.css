@@ -7,6 +7,51 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+header.major img {
+	object-fit: cover;
+	object-position: 0 47%;
+	height: 300px;
+}
+
+main + section h2 + img {
+	object-fit: cover;
+	object-position: 0 45%;
+	height: 700px;
+}
+
+main + section p + img.fit.image {
+	/* object-fit: cover;
+	object-position: 0% 0;
+	width: 300px; */
+}
+
+main + section + section p span {
+	font-weight: 800;
+}
+
+main + section + section img, main + section + section + section + section + section + section img {
+	object-fit: cover;
+	object-position: 0 50%;
+	height: 800px;
+}
+
+video {
+	width: 100%;
+}
+
+@media screen and (max-width: 530px) {
+	main + section h2 + img {
+		object-fit: cover;
+		object-position: 0 48%;
+		height: 300px;
+	}
+	main + section + section img {
+		object-fit: cover;
+		object-position: 0 58%;
+		height: 500px;
+	}
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
